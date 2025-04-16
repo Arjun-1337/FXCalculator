@@ -63,7 +63,7 @@ Ensure you have Flutter installed. Get Flutter →
 
 📫 Contact
 Developer: Arjun-1337
-📧 gashtankar@gmail.com
-🌐 Arjun Global
+📧 Arjun@arjun.media
+🌐 Arjun Media
 
 <div align="center"> Made with ❤️ by Arjun-1337 </div> ```
