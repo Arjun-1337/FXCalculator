@@ -1,69 +1,95 @@
-<div align="center">
-  <h1>📊 Forex Calculator App</h1>
-  <p>A powerful, real-time calculator for Forex traders. Built with Flutter for lightning-fast performance and a seamless UI.</p>
+<h1 align="center">📊 Forex Calculator App</h1>
+<p align="center">A powerful, real-time multi-tool calculator suite for Forex traders. Built with Flutter for lightning-fast performance and a seamless user experience.</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Flutter-2025-blue?logo=flutter&logoColor=white" />
   <img src="https://img.shields.io/badge/Dart-Stable-blue?logo=dart&logoColor=white" />
   <img src="https://img.shields.io/badge/API%20Integration-Live%20Rates-success?logo=graphql" />
   <img src="https://img.shields.io/badge/Responsive-Mobile%20%26%20Tablet-orange?logo=android" />
   <img src="https://img.shields.io/badge/Leverage%20Support-Enabled-purple?logo=scale" />
-</div>
+</p>
 
 ---
 
-## 🚀 Features
+## 🚀 Features Overview
 
-- ✅ **Live Exchange Rates** with API Integration
-- 📈 **Pip Value Calculator** with leverage support
-- 💵 **Lot Size, Margin & Risk Calculators** (coming soon)
-- 🌐 **Supports All Major Currency Pairs**
-- 🎯 **User-friendly UI** with dark mode theme
-- 🔄 **Real-time Input & Calculation Updates**
-- 🧠 **Smart Input Validation** for error-free calculations
-- 📱 **Responsive Layout** for all screen sizes
+### 🔢 Core Forex Calculators
 
----
-
-## 🧰 Tech Stack
-
-| Tech             | Description                      |
-|------------------|----------------------------------|
-| ![Flutter](https://img.shields.io/badge/Flutter-Framework-blue?logo=flutter) | Cross-platform mobile UI toolkit |
-| ![Dart](https://img.shields.io/badge/Dart-Language-blue?logo=dart) | Primary programming language |
-| ![REST API](https://img.shields.io/badge/API-Live%20Forex%20Data-success?logo=graphql) | Fetches live rates for accuracy |
-| ![Provider](https://img.shields.io/badge/Provider-State%20Management-brightgreen?logo=flutter) | Efficient state management |
-| ![Responsive](https://img.shields.io/badge/UI-Responsive-lightgrey?logo=android) | Optimized for multiple devices |
+| Tool                      | Description |
+|---------------------------|-------------|
+| 📏 **Lot Size Calculator** | Calculates ideal lot size based on risk % and SL |
+| 💰 **Pip Value Calculator** | Real pip values by lot size & currency pair |
+| 🛡 **Risk Management Tool** | Risk per trade, RR ratio, drawdown effect |
+| 🧮 **Margin Calculator** | Margin required based on leverage & symbol |
+| 📈 **Profit Calculator** | Projects trade outcomes based on price movement |
+| 🌙 **Swap & Rollover Fee Calculator** | Daily swap fees (long/short) with broker data |
 
 ---
 
-## 📸 Screenshots (Coming Soon)
+### 📋 Trade & Account Tools
 
-> Add screenshots or GIFs of your app here.
+| Tool                      | Description |
+|---------------------------|-------------|
+| 🗃 **Trade History Log** | Auto/manual logs with filters & stats |
+| 📓 **Trading Journal** | Log emotions, screenshots, reasons, mistakes |
+| 💱 **Currency Pair Info Page** | Spreads, volatility, session & news metrics |
 
 ---
 
-## 🔧 Installation
+### 🧠 Pro Tools for Advanced Traders
 
-```bash
-git clone https://github.com/Arjun-1337/forex-calculator.git
-cd forex-calculator
-flutter pub get
-flutter run
-Ensure you have Flutter installed. Get Flutter →
+| Tool                             | Functionality |
+|----------------------------------|---------------|
+| 🔁 **Trade Copier Risk Tool** | Sync trades across accounts by % or multiplier |
+| 🔄 **Position Size Multiplier** | Multi-account scaling with risk-based logic |
+| 🧮 **Break-Even Price Calculator** | Adjust BE price for scaling/partial exits |
+| 🎯 **Target Price Calculator** | Calculate Take Profit with RR logic |
+| 🔀 **Hedging Calculator** | Offset positions perfectly with hedge lot |
+| 📆 **Economic Impact Tool** | Shows pip volatility from past news events |
+| 🧾 **Growth/Compounding Calculator** | Weekly/monthly % projections with reinvestment |
+| 🕒 **Session Overlap Volatility Tool** | Visual pip movements by session overlap |
 
-🌍 Roadmap
- Pip Value Calculator with leverage
+---
 
- Margin & Risk Management Tools
+## 🛠️ Tech Stack & Tools
 
- Favorites & Saved Pairs
+<p align="left">
+  <img src="https://img.shields.io/badge/Flutter-Framework-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-Language-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/REST%20API-Live%20Rates-6DB33F?style=for-the-badge&logo=graphql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Android-Supported-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+  <img src="https://img.shields.io/badge/iOS-Supported-000000?style=for-the-badge&logo=apple&logoColor=white" />
+  <img src="https://img.shields.io/badge/Figma-Design-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+</p>
 
- Localization (Multi-language support)
+---
 
- Dark/Light Theme Toggle
+## 📸 UI Preview (Coming Soon)
+> Add screenshots here once your UI is designed and ready.
 
-📫 Contact
-Developer: Arjun-1337
-📧 Arjun@arjun.media
-🌐 Arjun Media
+---
 
-<div align="center"> Made with ❤️ by Arjun-1337 </div> ```
+## 📬 Contact
+
+**👨‍💻 Arjun-1337**  
+📫 **Email**: [arjun@arjun.media](mailto:arjun@arjun.media)  
+🔗 **GitHub**: [github.com/Arjun-1337](https://github.com/Arjun-1337)
+
+---
+
+## 🧪 Roadmap
+
+- [x] Core Calculators
+- [x] Advanced Trading Tools
+- [x] Risk Sync for Copier Accounts
+- [ ] Firebase Cloud Sync
+- [ ] UI Screenshot Upload & Sharing
+- [ ] AI-based Journal Analysis
+- [ ] Public Release on Android & iOS
+
+---
+
+> 💼 Built with love by **Arjun Media** + **CodeMob**  
+> 🌍 Operating Globally | Made in 🇮🇳 & 🇦🇪
+
